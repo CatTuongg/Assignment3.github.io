@@ -11,7 +11,9 @@ img {
   height: 100%;
   object-fit: cover;
 }
-
+header i {
+  color: var(--primary-color);
+}
 .header-item {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/banner2.jpg);
@@ -198,14 +200,26 @@ nav::after {
 }
 
 .duan-text {
-  width: 50px;
+  width: 70px;
 }
 
 a:hover {
   display: inline-block;
   transform: scale(0.95);
 }
-
+.rounded-pill {
+  max-width: 70px;
+}
+.ss {
+  display: flex;
+}
+.fle {
+  display: flex;
+  gap: 20px;
+}
+.bla {
+  color: black !important;
+}
 /* Chung chi giai thuong css */
 .gridd img {
   /* width: calc(80% - var(--width-content)); */
@@ -241,3 +255,6 @@ a:hover {
   border-top: 1px solid #f7b34d;
 }
 /* footer icons */
+.footer-icons {
+  color: var(--primary-color);
+}
